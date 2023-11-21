@@ -17,9 +17,9 @@ class TaskFactory extends Factory
     public function definition(): array
     {
         return [
-            'titulo' => $this-> faker->words(3,true),
-            'descricao' => $this->faker->sentence
-            //'user' => $this->
+            // 'titulo' => $this-> faker->words(3,true),
+            // 'descricao' => $this->faker->sentence
+            // 'user' => $this->
         ];
     }
 }
